@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Overtime"
+  short_description: "Autonomous long-running development workflow"
+  default_prompt: "Use $work-overtime to autonomously plan, delegate, develop, verify, and close a long-running coding task."

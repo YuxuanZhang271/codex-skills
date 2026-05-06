@@ -1,0 +1,4 @@
+interface:
+  display_name: "Andrej Karpathy Skills"
+  short_description: "Senior-engineer coding discipline"
+  default_prompt: "Use $andrej-karpathy-skills to implement this with simple, surgical changes and verification."
