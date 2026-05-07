@@ -1,5 +1,7 @@
 ---
 title: Writing Index
+aliases:
+  - Writing
 type: index
 status: active
 tags:
@@ -22,5 +24,5 @@ Use this folder for paper drafts, outlines, application materials, essays, state
 ## Useful Links
 
 - [[00-home/Research Map]]
-- [[01-literature/README|Literature]]
-- [[03-projects/README|Projects]]
+- [[01-literature/Literature Index|Literature]]
+- [[03-projects/Projects Index|Projects]]

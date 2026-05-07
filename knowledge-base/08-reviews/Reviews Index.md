@@ -1,5 +1,7 @@
 ---
 title: Reviews Index
+aliases:
+  - Reviews
 type: index
 status: active
 tags:

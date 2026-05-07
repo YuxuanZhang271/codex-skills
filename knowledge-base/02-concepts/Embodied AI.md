@@ -21,4 +21,5 @@ Use this note to refine your own definition, especially where embodied systems d
 
 - [[02-concepts/Vision-Language-Action Models]]
 - [[02-concepts/Robotic Manipulation]]
-- [[03-projects/README|Projects]]
+- [[03-projects/Projects Index|Projects]]
+- [[01-literature/Embodied AI and Robotics Reading Synthesis]]

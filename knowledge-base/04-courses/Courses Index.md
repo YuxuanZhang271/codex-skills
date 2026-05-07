@@ -1,5 +1,7 @@
 ---
 title: Courses Index
+aliases:
+  - Courses
 type: index
 status: active
 tags:

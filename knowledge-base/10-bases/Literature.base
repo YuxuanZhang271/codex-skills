@@ -5,6 +5,7 @@ filters:
     - or:
         - 'type == "paper"'
         - 'type == "reading"'
+        - 'type == "synthesis"'
 
 formulas:
   year_label: 'if(year, year.toString(), "")'

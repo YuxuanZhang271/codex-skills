@@ -221,4 +221,4 @@ This format is useful for interviews because it avoids isolated memorization and
 
 - [[02-concepts/Embodied AI]]
 - [[02-concepts/Robotic Manipulation]]
-- [[04-courses/README|Courses Index]]
+- [[04-courses/Courses Index|Courses Index]]

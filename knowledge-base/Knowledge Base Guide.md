@@ -1,5 +1,7 @@
 ---
 title: Knowledge Base Guide
+aliases:
+  - Vault Guide
 tags:
   - kb/guide
   - academic

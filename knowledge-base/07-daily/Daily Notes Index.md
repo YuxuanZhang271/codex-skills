@@ -1,5 +1,7 @@
 ---
 title: Daily Notes Index
+aliases:
+  - Daily Notes
 type: index
 status: active
 tags:

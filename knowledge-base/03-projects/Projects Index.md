@@ -1,5 +1,7 @@
 ---
 title: Projects Index
+aliases:
+  - Projects
 type: index
 status: active
 tags:

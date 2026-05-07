@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06388298a1bbc9ea",
+        "id": "ea408f28f514311c",
         "type": "tabs",
         "children": [
           {
-            "id": "b237db02454e9e28",
+            "id": "05e8ca32f2c53202",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +176,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "b237db02454e9e28",
+  "active": "05e8ca32f2c53202",
   "lastOpenFiles": [
+    "01-literature/Embodied AI and Robotics Reading Synthesis.md",
+    "02-concepts/Medical Robotics.md",
+    "99-attachments/Attachments Index.md",
+    "08-reviews/Reviews Index.md",
+    "07-daily/Daily Notes Index.md",
+    "06-meetings/Meetings Index.md",
+    "05-writing/Writing Index.md",
+    "04-courses/Courses Index.md",
+    "03-projects/Projects Index.md",
+    "02-concepts/Concepts Index.md",
+    "01-literature/Literature Index.md",
+    "Knowledge Base Guide.md",
     "02-concepts/Robotic Manipulation.md",
     "04-courses/Xiaolin Coding Illustrated Operating Systems.md",
     "04-courses/Operating Systems.md",
@@ -192,22 +205,10 @@
     "90-templates/Project Note.md",
     "90-templates/Concept Note.md",
     "90-templates/Reading Queue Item.md",
-    "90-templates/Paper Note.md",
     "10-bases/Meetings.base",
     "10-bases/Writing.base",
     "10-bases/Projects.base",
     "10-bases/Literature.base",
-    "09-preferences/Codex Knowledge Policy.md",
-    "08-reviews/README.md",
-    "07-daily/README.md",
-    "06-meetings/README.md",
-    "05-writing/README.md",
-    "03-projects/README.md",
-    "02-concepts/Focused Ultrasound.md",
-    "02-concepts/Medical Robotics.md",
-    "02-concepts/Vision-Language-Action Models.md",
-    "02-concepts/Embodied AI.md",
-    "02-concepts/README.md",
     "99-attachments",
     "90-templates",
     "10-bases",

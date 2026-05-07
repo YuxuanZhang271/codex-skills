@@ -21,14 +21,15 @@ Use this note as the high-level map of academic interests, projects, and reusabl
 
 ## Current Project Links
 
-- [[03-projects/README|Projects Index]]
+- [[03-projects/Projects Index|Projects Index]]
 
 ## Literature Links
 
-- [[01-literature/README|Literature Index]]
+- [[01-literature/Literature Index|Literature Index]]
+- [[01-literature/Embodied AI and Robotics Reading Synthesis]]
 - [[10-bases/Literature.base|Literature Base]]
 
 ## Writing Links
 
-- [[05-writing/README|Writing Index]]
+- [[05-writing/Writing Index|Writing Index]]
 - [[10-bases/Writing.base|Writing Base]]

@@ -1,5 +1,7 @@
 ---
 title: Meetings Index
+aliases:
+  - Meetings
 type: index
 status: active
 tags:

@@ -1,5 +1,7 @@
 ---
 title: Concepts Index
+aliases:
+  - Concepts
 type: index
 status: active
 tags:

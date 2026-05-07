@@ -1,5 +1,7 @@
 ---
 title: Attachments
+aliases:
+  - Attachments Index
 type: index
 status: active
 tags:

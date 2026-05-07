@@ -22,13 +22,13 @@ This is the entrypoint for the academic knowledge base.
 
 ## Core Areas
 
-- [[01-literature/README|Literature]]
-- [[02-concepts/README|Concepts]]
-- [[03-projects/README|Projects]]
-- [[04-courses/README|Courses]]
-- [[05-writing/README|Writing]]
-- [[06-meetings/README|Meetings]]
-- [[08-reviews/README|Reviews]]
+- [[01-literature/Literature Index|Literature]]
+- [[02-concepts/Concepts Index|Concepts]]
+- [[03-projects/Projects Index|Projects]]
+- [[04-courses/Courses Index|Courses]]
+- [[05-writing/Writing Index|Writing]]
+- [[06-meetings/Meetings Index|Meetings]]
+- [[08-reviews/Reviews Index|Reviews]]
 - [[09-preferences/Codex Knowledge Policy|Codex Knowledge Policy]]
 
 ## Fast Capture

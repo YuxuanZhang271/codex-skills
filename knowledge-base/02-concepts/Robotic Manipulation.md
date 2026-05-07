@@ -23,3 +23,4 @@ Robotic manipulation covers perception, planning, control, and learning methods 
 
 - [[02-concepts/Embodied AI]]
 - [[02-concepts/Vision-Language-Action Models]]
+- [[01-literature/Embodied AI and Robotics Reading Synthesis]]

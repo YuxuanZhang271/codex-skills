@@ -1,5 +1,7 @@
 ---
 title: Literature Index
+aliases:
+  - Literature
 type: index
 status: active
 tags:
@@ -14,6 +16,10 @@ Use this folder for papers, books, articles, technical reports, and reading-queu
 ## Views
 
 ![[10-bases/Literature.base]]
+
+## Synthesis Notes
+
+- [[01-literature/Embodied AI and Robotics Reading Synthesis]]
 
 ## Note Types
 

@@ -25,3 +25,4 @@ Vision-language-action models connect perception, language-conditioned reasoning
 
 - [[02-concepts/Embodied AI]]
 - [[02-concepts/Robotic Manipulation]]
+- [[01-literature/Embodied AI and Robotics Reading Synthesis]]
