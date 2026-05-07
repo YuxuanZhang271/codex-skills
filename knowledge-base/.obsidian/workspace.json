@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "166ba4134c850f04",
+    "type": "split",
+    "children": [
+      {
+        "id": "06388298a1bbc9ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b237db02454e9e28",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b017198ee5200ecc",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f2c569d53f9d096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79895ef8886880fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "52d976dfae6abe1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "896c2caf15fcacb1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5
+  },
+  "right": {
+    "id": "5a623ee63ab91351",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9fd8edc1de5da02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3c33cf03097a337",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1a41a6d571a3bdc3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "891ca82355bcdc8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d33307712a784fa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e7466585e8d826bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b237db02454e9e28",
+  "lastOpenFiles": [
+    "02-concepts/Robotic Manipulation.md",
+    "04-courses/Xiaolin Coding Illustrated Operating Systems.md",
+    "04-courses/Operating Systems.md",
+    "04-courses/README.md",
+    "Untitled.canvas",
+    "README.md",
+    "99-attachments/README.md",
+    "00-home/Academic Dashboard.md",
+    "90-templates/Writing Note.md",
+    "90-templates/Weekly Review.md",
+    "90-templates/Daily Note.md",
+    "90-templates/Meeting Note.md",
+    "90-templates/Project Note.md",
+    "90-templates/Concept Note.md",
+    "90-templates/Reading Queue Item.md",
+    "90-templates/Paper Note.md",
+    "10-bases/Meetings.base",
+    "10-bases/Writing.base",
+    "10-bases/Projects.base",
+    "10-bases/Literature.base",
+    "09-preferences/Codex Knowledge Policy.md",
+    "08-reviews/README.md",
+    "07-daily/README.md",
+    "06-meetings/README.md",
+    "05-writing/README.md",
+    "03-projects/README.md",
+    "02-concepts/Focused Ultrasound.md",
+    "02-concepts/Medical Robotics.md",
+    "02-concepts/Vision-Language-Action Models.md",
+    "02-concepts/Embodied AI.md",
+    "02-concepts/README.md",
+    "99-attachments",
+    "90-templates",
+    "10-bases",
+    "09-preferences",
+    "08-reviews",
+    "07-daily"
+  ]
+}

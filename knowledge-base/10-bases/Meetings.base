@@ -1,0 +1,41 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.inFolder("06-meetings")'
+    - 'type == "meeting"'
+
+formulas:
+  days_since_meeting: 'if(meeting_date, (today() - date(meeting_date)).days, "")'
+
+properties:
+  meeting_date:
+    displayName: "Date"
+  participants:
+    displayName: "Participants"
+  status:
+    displayName: "Status"
+  formula.days_since_meeting:
+    displayName: "Days Ago"
+
+views:
+  - type: table
+    name: "Recent Meetings"
+    limit: 20
+    order:
+      - file.name
+      - meeting_date
+      - participants
+      - status
+      - formula.days_since_meeting
+      - next_action
+
+  - type: table
+    name: "Follow Ups"
+    filters:
+      and:
+        - 'status == "follow-up"'
+    order:
+      - file.name
+      - meeting_date
+      - participants
+      - next_action
