@@ -1,0 +1,29 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'domain == "output"'
+
+formulas:
+  updated_label: 'if(updated, updated.toString(), "")'
+
+properties:
+  title:
+    displayName: "Title"
+  type:
+    displayName: "Type"
+  status:
+    displayName: "Status"
+  pdf:
+    displayName: "PDF"
+  formula.updated_label:
+    displayName: "Updated"
+
+views:
+  - type: table
+    name: "Output Index"
+    order:
+      - file.name
+      - type
+      - status
+      - pdf
+      - formula.updated_label

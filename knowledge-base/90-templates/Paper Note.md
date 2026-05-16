@@ -1,4 +1,5 @@
 ---
+domain: learning
 title: "{{title}}"
 type: paper
 status: to-read
@@ -46,6 +47,6 @@ tags:
 
 ## Links
 
-- Related concepts:
+- Related ideas:
 - Related projects:
 - Related writing:

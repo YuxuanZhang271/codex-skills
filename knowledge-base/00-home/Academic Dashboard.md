@@ -1,4 +1,5 @@
 ---
+domain: system
 title: Academic Dashboard
 type: dashboard
 status: active
@@ -11,18 +12,25 @@ tags:
 
 ## Active Views
 
-![[10-bases/Projects.base#Active Projects]]
+![[05-bases/Ideas.base#Active Ideas]]
 
-![[10-bases/Literature.base#Reading Queue]]
+![[05-bases/Work.base#Active Work]]
 
-![[10-bases/Writing.base#Active Writing]]
+![[05-bases/Learning.base#Reading Queue]]
 
-![[10-bases/Meetings.base#Recent Meetings]]
+![[05-bases/Output.base#Output Index]]
+
+![[05-bases/Learning.base#Active Courses]]
+
+## Active Course Plans
+
+- [[10-learning/Courses/Deep Learning Learning Plan]]
+- [[10-learning/Courses/MIT How2AI Course]]
 
 ## Weekly Maintenance
 
-- [ ] Promote useful daily notes into permanent notes.
-- [ ] Update active project statuses.
+- [ ] Promote useful idea notes into work notes when they become active.
+- [ ] Update active work statuses.
+- [ ] Update active learning progress.
 - [ ] Mark finished readings as `done`.
-- [ ] Link new concepts to projects or papers.
-- [ ] Record open questions for the next meeting.
+- [ ] Link new ideas to learning notes, work notes, or output artifacts.

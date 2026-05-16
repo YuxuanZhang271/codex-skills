@@ -1,0 +1,28 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'domain == "system"'
+
+properties:
+  title:
+    displayName: "Title"
+  type:
+    displayName: "Type"
+  status:
+    displayName: "Status"
+  updated:
+    displayName: "Updated"
+  tags:
+    displayName: "Tags"
+
+views:
+  - type: table
+    name: "All System Notes"
+    order:
+      - file.name
+      - type
+      - status
+      - updated
+    groupBy:
+      property: type
+      direction: ASC

@@ -1,0 +1,76 @@
+filters:
+  and:
+    - file.ext == "md"
+    - domain == "learning"
+formulas:
+  priority_label: if(priority == 1, "High", if(priority == 2, "Medium", if(priority == 3, "Low", "")))
+  year_label: if(year, year.toString(), "")
+properties:
+  title:
+    displayName: Title
+  type:
+    displayName: Type
+  status:
+    displayName: Status
+  research_area:
+    displayName: Area
+  priority:
+    displayName: Priority
+  authors:
+    displayName: Authors
+  venue:
+    displayName: Venue
+  year:
+    displayName: Year
+  institution:
+    displayName: Institution
+  course_code:
+    displayName: Course Code
+  formula.priority_label:
+    displayName: Priority Label
+views:
+  - type: table
+    name: Reading Queue
+    filters:
+      or:
+        - status == "to-read"
+        - status == "reading"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - status
+      - formula.priority_label
+      - authors
+      - year
+      - venue
+      - research_area
+  - type: table
+    name: Active Courses
+    filters:
+      and:
+        - type == "course"
+        - status != "done"
+        - status != "archived"
+    order:
+      - file.name
+      - status
+      - formula.priority_label
+      - institution
+      - course_code
+      - research_area
+      - updated
+  - type: table
+    name: Learning Library
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - status
+      - formula.priority_label
+      - research_area
+      - updated

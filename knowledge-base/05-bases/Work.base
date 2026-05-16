@@ -1,0 +1,54 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'domain == "work"'
+
+formulas:
+  days_until_deadline: 'if(deadline, (date(deadline) - today()).days, "")'
+
+properties:
+  title:
+    displayName: "Title"
+  type:
+    displayName: "Type"
+  status:
+    displayName: "Status"
+  research_area:
+    displayName: "Area"
+  deadline:
+    displayName: "Deadline"
+  next_action:
+    displayName: "Next Action"
+  formula.days_until_deadline:
+    displayName: "Days Left"
+
+views:
+  - type: table
+    name: "Active Work"
+    filters:
+      and:
+        - 'status != "done"'
+        - 'status != "archived"'
+    order:
+      - file.name
+      - status
+      - research_area
+      - deadline
+      - formula.days_until_deadline
+      - next_action
+    groupBy:
+      property: status
+      direction: ASC
+
+  - type: table
+    name: "All Work"
+    order:
+      - file.name
+      - type
+      - status
+      - research_area
+      - deadline
+      - updated
+    groupBy:
+      property: type
+      direction: ASC

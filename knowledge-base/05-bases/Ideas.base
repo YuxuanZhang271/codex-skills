@@ -1,0 +1,49 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'domain == "idea"'
+
+formulas:
+  priority_label: 'if(priority == 1, "High", if(priority == 2, "Medium", if(priority == 3, "Low", "")))'
+
+properties:
+  title:
+    displayName: "Title"
+  type:
+    displayName: "Type"
+  status:
+    displayName: "Status"
+  research_area:
+    displayName: "Area"
+  priority:
+    displayName: "Priority"
+  formula.priority_label:
+    displayName: "Priority Label"
+
+views:
+  - type: table
+    name: "Active Ideas"
+    filters:
+      and:
+        - 'status != "done"'
+        - 'status != "archived"'
+    order:
+      - file.name
+      - type
+      - formula.priority_label
+      - status
+      - research_area
+      - updated
+    groupBy:
+      property: status
+      direction: ASC
+
+  - type: table
+    name: "All Ideas"
+    order:
+      - file.name
+      - type
+      - status
+      - formula.priority_label
+      - research_area
+      - updated

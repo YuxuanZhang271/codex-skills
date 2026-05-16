@@ -18,16 +18,12 @@ The goal is to keep agent behavior explicit and portable: skills define how Code
 |   +-- ...
 +-- knowledge-base/
     +-- 00-home/
-    +-- 01-literature/
-    +-- 02-concepts/
-    +-- 03-projects/
-    +-- 04-courses/
-    +-- 05-writing/
-    +-- 06-meetings/
-    +-- 07-daily/
-    +-- 08-reviews/
-    +-- 09-preferences/
-    +-- 10-bases/
+    +-- 05-bases/
+    +-- 10-learning/
+    +-- 20-ideas/
+    +-- 30-work/
+    +-- 40-output/
+    +-- 50-system/
     +-- 90-templates/
     +-- 99-attachments/
     +-- .obsidian/
@@ -76,25 +72,21 @@ A good skill should:
 
 ## Knowledge Base
 
-`knowledge-base/` is the persistent academic memory layer for this agent. It is initialized as an Obsidian-compatible vault with dashboards, literature notes, concepts, project records, writing notes, meeting notes, daily capture, review notes, templates, and Bases views.
+`knowledge-base/` is the persistent academic memory layer for this agent. It is an Obsidian-compatible vault organized around a lifecycle: learn from external sources, develop ideas, execute work, publish outputs, and maintain the system.
 
 Current structure:
 
 ```text
 knowledge-base/
   00-home/          # Dashboards and navigation
-  01-literature/    # Papers, books, articles, and reading queue
-  02-concepts/      # Reusable academic and technical concept notes
-  03-projects/      # Research projects, repos, experiments, and deliverables
-  04-courses/       # Coursework, lectures, assignments, and exams
-  05-writing/       # Drafts, outlines, statements, and submissions
-  06-meetings/      # Supervision, PI meetings, collaboration logs
-  07-daily/         # Daily capture notes
-  08-reviews/       # Weekly and milestone reviews
-  09-preferences/   # Durable user and Codex operating preferences
-  10-bases/         # Obsidian Bases for structured academic review
-  90-templates/     # Reusable note templates
-  99-attachments/   # PDFs, figures, and other artifacts
+  05-bases/         # Lifecycle Bases for structured review
+  10-learning/      # Papers, courses, readings, and synthesis notes
+  20-ideas/         # Flat idea notes with one index
+  30-work/          # Flat work notes with repo links, plans, progress, and status
+  40-output/        # Paper PDFs and one output index
+  50-system/        # One system index; agent rules live in agent.md
+  90-templates/     # Minimal reusable note templates
+  99-attachments/   # Supporting vault assets only
 ```
 
 Recommended usage:
@@ -104,8 +96,8 @@ Recommended usage:
 - Prefer concise Markdown notes with frontmatter, clear titles, and wikilinks.
 - Keep private credentials, API keys, tokens, and account secrets out of the repo.
 - Separate stable preferences from temporary task notes.
-- Use the templates in `knowledge-base/90-templates/` for repeated academic note types.
-- Use the Bases in `knowledge-base/10-bases/` to review literature, projects, writing, and meetings.
+- Keep templates minimal and add new ones only for repeated workflows.
+- Use the Bases in `knowledge-base/05-bases/` to review learning, ideas, work, output, and system notes.
 
 ## Using This Repository
 

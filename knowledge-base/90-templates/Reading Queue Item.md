@@ -1,4 +1,5 @@
 ---
+domain: learning
 title: "{{title}}"
 type: reading
 status: to-read

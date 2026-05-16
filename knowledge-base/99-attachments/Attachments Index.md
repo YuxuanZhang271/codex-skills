@@ -1,4 +1,5 @@
 ---
+domain: system
 title: Attachments
 aliases:
   - Attachments Index
@@ -11,6 +12,14 @@ tags:
 
 # Attachments
 
-Use this folder for PDFs, figures, screenshots, exported diagrams, and other files that should be available inside the Obsidian vault.
+Use this folder only for supporting files that must stay inside the Obsidian vault.
 
-Do not store credentials, tokens, private keys, or account secrets here.
+## Current Attachments
+
+No attachments yet.
+
+## Management Rule
+
+- Paper PDFs belong in `40-output/` by default, not here.
+- Do not store credentials, tokens, private keys, account secrets, source code, datasets, or project files here.
+- Add files here only when the user explicitly asks to keep a supporting asset in the vault.
